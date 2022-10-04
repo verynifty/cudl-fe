@@ -1,0 +1,29 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+.btn {
+  @apply border-0 border-dark text-primary pt-3 px-4 text-base rounded-none bg-dark cursor-pointer;
+}
+
+div.px-3 > .router-link-active {
+  @apply text-white;
+}
+
+.btn:focus {
+  @apply outline-none;
+}
+
+.btn:hover {
+  @apply text-white bg-dark;
+}
+
+@media (min-width: 768px) {
+  .desktopMenu {
+    @apply px-4 py-2;
+  }
+
+  .desktopMenu:hover {
+    @apply bg-purple-300;
+  }
+}

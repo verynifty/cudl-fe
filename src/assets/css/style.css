@@ -1,0 +1,152 @@
+/* @import url( "https://fonts.googleapis.com/css2?family=Antic+Slab&display=swap"); */
+/*@import url("https://fonts.googleapis.com/css2?family=Finger+Paint&display=swap"); */
+
+@font-face {
+  font-family: "tittles";
+  src: url("../fonts/setbackt.ttf");
+}
+
+@font-face {
+  font-family: "minecraftia";
+  src: url("../fonts/Minecraftia-Regular.ttf");
+}
+
+/* body {
+  margin: 0;
+  font-family: "minecraftia";
+
+  background-color: #7d5cff;
+} */
+
+.body {
+  margin: 0;
+  background: url("../img/space-bg-moon-blk-2620x1500.gif") no-repeat bottom
+    center;
+  /* background: linear-gradient(rgba(50, 35, 35, 0.5), rgba(0, 0, 0, 0.1)),
+    url("../img/space-bg-moon-blk-2620x1500.gif"), no-repeat bottom center; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "minecraftia";
+}
+
+.leaderboard {
+  margin: 0;
+  background: url("../img/leaderboard.gif") repeat bottom center;
+  /* background: linear-gradient(rgba(50, 35, 35, 0.5), rgba(0, 0, 0, 0.1)),
+    url("../img/space-bg-moon-blk-2620x1500.gif"), no-repeat bottom center; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "minecraftia";
+}
+
+.race {
+  margin: 0;
+  background: url("../img/space-bg-moon-blk-2620x1500.gif") repeat bottom center;
+  /* background: linear-gradient(rgba(50, 35, 35, 0.5), rgba(0, 0, 0, 0.1)),
+    url("../img/space-bg-moon-blk-2620x1500.gif"), no-repeat bottom center; */
+  -webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;
+  background-size: cover;
+  font-family: "minecraftia";
+}
+
+.deathvalley {
+  background: url("../img/deathValley_bg.png") repeat-y top center;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: contain;
+  background-color: #442659;
+  font-family: "minecraftia";
+}
+
+.parkwalk {
+  background: url("../img/deathValley_bg.png") repeat-y top center;
+  /*-webkit-background-size: cover;
+  -moz-background-size: cover;
+  -o-background-size: cover;*/
+  background-size: contain;
+  background-color: #442659;
+  font-family: "minecraftia";
+}
+
+.boxShadow {
+  box-shadow: 6px 6px #616161;
+}
+
+.boxShadow2 {
+  box-shadow: 6px 6px #000000;
+}
+
+.boxShadowGem {
+  box-shadow: 6px 6px #616161;
+}
+
+.txtShadow {
+  text-shadow: 4px 4px #d4d4d2;
+}
+
+.txtShadow2 {
+  text-shadow: 4px 4px #6b4aea;
+}
+
+.txtShadow3 {
+  text-shadow: 2px 2px #d4d4d2;
+}
+
+.txtShadow4 {
+  text-shadow: 2px 2px #525252;
+}
+
+.btn {
+  background-color: #e22bb0;
+  box-shadow: 6px 6px #000000;
+  color: #fff;
+  border: 3px solid black;
+}
+
+.tittle {
+  font-family: "tittles";
+  font-size: xxx-large;
+}
+
+@media (max-width: 768px) {
+}
+
+.full-width {
+  width: 100vw;
+  position: relative;
+  left: 50%;
+  right: 50%;
+  margin-left: -50vw;
+  margin-right: -50vw;
+}
+
+.vimeo-wrapper {
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  z-index: -1;
+  pointer-events: none;
+  overflow: hidden;
+}
+
+.vimeo-wrapper iframe {
+  width: 100vw;
+  height: 56.25vw;
+  /* Given a 16:9 aspect ratio, 9/16*100 = 56.25 */
+  min-height: 100vh;
+  min-width: 177.77vh;
+  /* Given a 16:9 aspect ratio, 16/9*100 = 177.77 */
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
